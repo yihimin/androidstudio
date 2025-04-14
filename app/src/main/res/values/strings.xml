@@ -1,10 +1,12 @@
 <resources>
-    <string name="app_name">Textdisplay_2</string>
-    <string name="friend_addr">친구 주소록</string>
-    <string name="name01">이희민</string>
-    <string name="addr01">서울</string>
-    <string name="tel01">010-9000-0001</string>
-    <string name="name02">강호동</string>
-    <string name="addr02">부산</string>
-    <string name="tel02">010-9000-0002</string>
+    <string name="app_name">주소록 앱</string>
+    <string name="friend_list">📒 친구 주소록</string>
+
+    <string name="name01">홍길동</string>
+    <string name="addr01">서울시 마포구</string>
+    <string name="tel01">010-1234-5678</string>
+
+    <string name="name02">김철수</string>
+    <string name="addr02">부산광역시 해운대구</string>
+    <string name="tel02">010-2345-6789</string>
 </resources>
