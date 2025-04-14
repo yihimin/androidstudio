@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">LinearLayout_3</string>
-    <string name="btn_name">Button</string>
-    <string name="tv_name">TextView</string>
-    <string name="cb_name">CheckBox</string>
-    <string name="rb_name">RadioButton</string>
-    <string name="sw_name">Switch</string>
+    <string name="app_name">TextDisplay_01</string>
+    <string name="friend_tel">친구 전화번호</string>
+    <string name="name_1">이희민</string>
+    <string name="tel_1">010-1111-1111</string>
+    <string name="name_2">김경란</string>
+    <string name="tel_2">010-2222-2222</string>
 </resources>

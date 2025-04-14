@@ -1,122 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
-    tools:context=".MainActivity">
-
-    <!-- 💡 버튼 라벨 -->
-
-    <!-- 🟦 버튼 -->
-
-    <!-- ✅ 체크박스 라벨 -->
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/label_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="8dp"
-        android:text="버튼"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/btn_name"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_button" />
-
-    <!-- 🟨 체크박스 -->
-
-    <!-- 🔘 라디오버튼 라벨 -->
+        android:background="#FFEB3B"
+        android:text="@string/friend_tel"
+        android:textColor="#E91E63"
+        android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/label_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="28dp"
-        android:text="체크박스"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button1" />
+        android:background="#4CAF50"
+        android:text="@string/name_1"
+        android:textColor="#3F51B5"
+        android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/label_radio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="12dp"
-        android:text="라디오 버튼"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+        android:text="@string/tel_1"/>
 
-    <RadioButton
-        android:id="@+id/radioButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/rb_name"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_radio" />
-
-    <CheckBox
-        android:id="@+id/checkBox1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/cb_name"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_checkbox" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/sw_name"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/label_switch" />
-
-    <!-- 🟥 라디오버튼 -->
-
-    <!-- 🌗 스위치 라벨 -->
-
-    <!-- 🔁 스위치 -->
-
-    <!-- ⭐ 별점 위젯 (화면 맨 아래에 오른쪽 정렬) -->
     <TextView
-        android:id="@+id/label_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="12dp"
-        android:text="스위치"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/radioButton1" />
+        android:background="#4CAF50"
+        android:text="@string/name_2"
+        android:textColor="#3F51B5"
+        android:textSize="16sp" />
 
-    <RatingBar
-        android:id="@+id/ratingBar"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="240dp"
-        android:numStars="5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:text="@string/tel_2"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+
