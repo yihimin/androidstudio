@@ -43,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
             tvAddress.setText("🏠 " + address);
             tvPhone.setText("📞 " + phone);
 
+            // 카드 삭제
+            Button btnDelete = cardView.findViewById(R.id.btnDelete);
+            btnDelete.setOnClickListener(deleteView -> {
+                layoutContainer.removeView(cardView); // 이 카드만 삭제
+            });
+
             // 카드 추가
             layoutContainer.addView(cardView);
 

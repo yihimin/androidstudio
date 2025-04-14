@@ -36,4 +36,13 @@
         android:textSize="15sp"
         android:textColor="#666666" />
 
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🗑 삭제"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF" />
+
 </LinearLayout>
