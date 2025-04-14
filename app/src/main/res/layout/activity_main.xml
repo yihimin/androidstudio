@@ -4,41 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:orientation="vertical"
+    tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FFEB3B"
-        android:text="@string/friend_tel"
-        android:textColor="#E91E63"
-        android:textSize="20sp" />
-
+        android:text="@string/friend_addr" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:text="@string/name_1"
-        android:textColor="#3F51B5"
-        android:textSize="16sp" />
-
+        android:text="@string/name01"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tel_1"/>
-
+        android:text="@string/addr01"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:text="@string/name_2"
-        android:textColor="#3F51B5"
-        android:textSize="16sp" />
-
+        android:text="@string/tel01"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tel_2"/>
+        android:text="@string/name02"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addr02"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel02"/>
 
 </LinearLayout>
-

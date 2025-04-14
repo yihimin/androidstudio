@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">TextDisplay_01</string>
-    <string name="friend_tel">친구 전화번호</string>
-    <string name="name_1">이희민</string>
-    <string name="tel_1">010-1111-1111</string>
-    <string name="name_2">김경란</string>
-    <string name="tel_2">010-2222-2222</string>
+    <string name="app_name">Textdisplay_2</string>
+    <string name="friend_addr">친구 주소록</string>
+    <string name="name01">이희민</string>
+    <string name="addr01">서울</string>
+    <string name="tel01">010-9000-0001</string>
+    <string name="name02">강호동</string>
+    <string name="addr02">부산</string>
+    <string name="tel02">010-9000-0002</string>
 </resources>
