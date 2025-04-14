@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinearLayout_3</string>
+    <string name="btn_name">Button</string>
+    <string name="tv_name">TextView</string>
+    <string name="cb_name">CheckBox</string>
+    <string name="rb_name">RadioButton</string>
+    <string name="sw_name">Switch</string>
+</resources>
